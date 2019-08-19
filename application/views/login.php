@@ -82,7 +82,7 @@
 	<script src="assets/admin/vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 	<script src="assets/admin/js/main.js"></script>
-	<script type="text/javascript" src="<?php echo base_url('custom/js/login.js') ?>"></script>
+	<script type="assets/admin/text/javascript" src="<?php echo base_url('custom/js/login.js') ?>"></script>
 
 </body>
 </html>

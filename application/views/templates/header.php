@@ -1,4 +1,6 @@
-  
+
+
+
   <!-- datatables css -->
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/datatables/media/css/jquery.dataTables.min.css') ?>">
   <!-- fileinput css -->
@@ -11,5 +13,6 @@
   <!-- custom css -->
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('custom/css/custom.css') ?>"> 
 
-  <!-- jquery -->
-  <script type="text/javascript" src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
+        <!-- jquery -->
+        <script type="text/javascript" src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
+        

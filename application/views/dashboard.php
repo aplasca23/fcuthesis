@@ -63,7 +63,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">List of Classes:</h6>
-            <a class="collapse-item" <a href="<?php echo base_url('classes'); ?>">Manage Class</a>
+            <a class="collapse-item" <a href="<?php echo base_url('classes'); ?>">Manage Class</a></a>
 			<a class="collapse-item" <a href="<?php echo base_url('subject') ?>">Manage Subject</a>
 			<a class="collapse-item" <a href="<?php echo base_url('section') ?>">Manage Section</a>
           </div>
@@ -424,7 +424,7 @@
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login">Logout</a>
+          <li><a href="<?php echo base_url('users/logout'); ?>">Logout</a></li>
         </div>
       </div>
     </div>
